@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
     var typed_string = $(".text-slider-items").text();
     var typed = new Typed(".text-slider", {
@@ -9,6 +7,7 @@ $(document).ready(function(){
         backDelay: 700,
         backSpeed: 40,
     })
+    
     $('#nav-options').onePageNav({
         currentClass: 'active',
         changeHash: false,
@@ -16,7 +15,6 @@ $(document).ready(function(){
         scrollThreshold: 0.5,
         filter: '',
         easing: 'swing',
-
     })
 
     $(window).scroll(function(){
@@ -30,9 +28,7 @@ $(document).ready(function(){
                 background: "none",
             })
         }
-    })
-       
-    
+    })    
 })
 
 

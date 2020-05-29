@@ -126,14 +126,21 @@ li.active a.nav-link{
 
 #about .about-section p{
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 2px #21143F;
+    font-weight: 500;
+    margin: 20px 0;
     font-size: 25px;
 }
 
 .line-mf{
-    width: 10%;
+    width: 7%;
     height: 10px;
     background: linear-gradient(40deg, #511A5B, #21143F, #59215D);
     margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #21143F;
 }
 
 #about .about-details .about-img .img-wrap{
