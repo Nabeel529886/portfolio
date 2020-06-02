@@ -17,8 +17,12 @@ $(document).ready(function(){
         easing: 'swing',
     })
 
+    $('.nav-link').on('click', () => {
+        $(".navbar-collapse").collapse('hide')
+    })
+
     $(window).scroll(function(){
-        let positionTop = $(document).scrollTop();
+        let positionTop = $(document).scrollTop()
         if (positionTop >= 800){
             $(".navbar").css({
                 background: "linear-gradient(40deg, #511A5B, #21143F, #59215D)",
