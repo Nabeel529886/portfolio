@@ -4,7 +4,7 @@ body{
 }
 .navbar{
     /* background: linear-gradient(40deg, #4B0082, #4b0092, #4b00A3) !important; */
-    box-shadow: 8px 8px 8px #241540;
+    /* box-shadow: 8px 8px 8px #241540;*/
     border-radius: 0px;
     height: 7%
 }
@@ -168,6 +168,18 @@ li.active a.nav-link{
     width: 200px;
     height: 300px;
     margin: 0 auto;
+}
+
+#skills {
+    margin-bottom: 50px;
+}
+
+#skills .skills-details .skill-mf .progress{
+    margin-top: 10px;
+}
+
+#skills .skills-details .skill-mf .progress .progress-bar{
+    background: linear-gradient(40deg, #511A5B, #21143F, #59215D);
 }
 
 
